@@ -5,3 +5,7 @@ body {
 .selected {
   font-weight: bold;
 }
+.underline {
+  text-decoration: underline;
+  text-underline-position: under;
+}
