@@ -12,7 +12,7 @@ export default function Footer() {
         <Col lg={6}>
           <Detail>
             <p>서울특별시 서초구 서초중앙로 149-12복빌딩3층</p>
-            <p>대표자명 : 최우석|TEL.02-6953-6979|FAX. 02-1234-5678</p>
+            <p>대표자명 : 최우석 | TEL.02-6953-6979 | FAX. 02-1234-5678</p>
             <p>COPYRIGHT &copy; 제일법무 all Rights Reserved </p>
           </Detail>
         </Col>
@@ -30,7 +30,7 @@ export default function Footer() {
 const FooterBox = styled.div`
   width: 100%;
   /* height: 100px; */
-  background-color: tomato;
+  background-color: #2c3a47;
   text-align: center;
   padding: 30px;
   color: whitesmoke;

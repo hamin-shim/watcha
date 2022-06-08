@@ -6,7 +6,7 @@ export default function Header() {
   const path = useLocation().pathname;
   console.log(path);
   return (
-    <Navbar bg="light" expand="md" fixed="top">
+    <Navbar className="color-nav" variant="dark" expand="md" fixed="top">
       <Container>
         <Navbar.Brand href="/">새빈</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

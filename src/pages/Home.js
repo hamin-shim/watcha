@@ -36,8 +36,13 @@ export default function Home() {
           <br />
           대한민국 문화예술의 랜드마크로 자리매김할 예정입니다.
         </p>
-        <Row style={{}}>
-          <Col md={12} lg={6} style={{ display: "flex", alignItems: "center" }}>
+        <Row>
+          <Col
+            md={12}
+            lg={5}
+            xl={4}
+            style={{ display: "flex", alignItems: "center" }}
+          >
             <img
               src="https://modo-phinf.pstatic.net/20191128_120/1574923475720VWbbG_JPEG/mosaymJEgL.jpeg?type=f320_320"
               width={"100%"}
@@ -48,8 +53,10 @@ export default function Home() {
               새빈 갤러리의 아이덴티티는 "고귀함(Noble)"입니다. <br />
               어둠을 밝히는 태양 빛은 눈이 시리도록 숭고하지만,
               <br />손 닿을 수 없을 만큼 높은 곳에서 <br /> 우리를 내려다보는
-              신적인 존재이기도 합니다. 모든 것들의 위에 있는 최상의 품격을
-              자랑하는 <br /> 새빈의 고귀함을 가득 담은 상징입니다. <br />
+              신적인 존재이기도 합니다.
+              <br />
+              모든 것들의 위에 있는 최상의 품격을 자랑하는 <br /> 새빈의
+              고귀함을 가득 담은 상징입니다. <br />
               <br />
               <br />
               새빈은 새롭고, 빛나는 예술을 공유합니다.

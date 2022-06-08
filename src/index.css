@@ -4,8 +4,13 @@ body {
 }
 .selected {
   font-weight: bold;
+  color: #c8d6e5 !important;
 }
 .underline {
   text-decoration: underline;
   text-underline-position: under;
+}
+.color-nav {
+  background-color: #2c3a47;
+  color: "white";
 }
