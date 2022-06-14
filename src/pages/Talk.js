@@ -60,8 +60,8 @@ export default function Talk() {
                 감사합니다.
                 <br />
               </p>
-              <img width={"150px"} src="/img/sign.jpg" />
-              {/* <h2 className="sign">Yu, Da-Eun</h2> */}
+              {/* <img width={"150px"} src="/img/sign.jpg" /> */}
+              <h2 className="sign">Yu, Da-eun</h2>
             </Talking>
           </Col>
         </Row>

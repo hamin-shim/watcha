@@ -11,7 +11,7 @@ export default function Footer() {
         </Col> */}
         <Col>
           <Detail>
-            <p>인천 부평구 백범로578번길 47</p>
+            <p>경기 파주시 문발로 330 </p>
             <p>대표자명 : 유다은 | TEL.02-6953-6979</p>
             {/* <p>COPYRIGHT &copy; 제일법무 all Rights Reserved </p> */}
           </Detail>
@@ -35,6 +35,8 @@ const FooterBox = styled.div`
   padding: 30px;
   color: whitesmoke;
   margin-top: 100px;
+  /* position: absolute;
+  bottom: 0; */
 `;
 const Detail = styled.div`
   text-align: center;
