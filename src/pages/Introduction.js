@@ -8,11 +8,12 @@ export default function Introduction() {
   return (
     <Container style={{ marginTop: "100px" }}>
       <ContentBox>
-        <Title>특별전 '빛나는 세계'</Title>
+        <Title className="heading">특별전 '빛나는 세계'</Title>
         <img
           width={"20%"}
           style={{ minWidth: "250px" }}
-          src="https://png.pngtree.com/png-clipart/20190117/ourlarge/pngtree-celebrate-colorful-fireworks-fireworks-png-image_435414.jpg"
+          // src="https://png.pngtree.com/png-clipart/20190117/ourlarge/pngtree-celebrate-colorful-fireworks-fireworks-png-image_435414.jpg"
+          src="/img/light.png"
         />
         <h5
           style={{ marginTop: "30px", textAlign: "center", lineHeight: "150%" }}

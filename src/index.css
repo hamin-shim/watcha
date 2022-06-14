@@ -1,16 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Gothic+A1&family=Source+Sans+Pro:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Gothic+A1&family=Song+Myung&family=Source+Sans+Pro:wght@300;400&display=swap");
 body {
   margin: 0;
   word-break: keep-all;
+  font-family: "Gothic A1", sans-serif;
 }
 .selected {
   font-weight: bold;
-  color: #c8d6e5 !important;
+  color: #cad3c8 !important;
 }
 .underline {
   text-decoration: underline;
   text-underline-position: under;
 }
 .color-nav {
-  background-color: #2c3a47;
+  background-color: #88817e;
   color: "white";
+}
+.heading {
+  font-family: "Song Myung", serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.5;
 }

@@ -41,11 +41,17 @@ export default function Home() {
             md={12}
             lg={5}
             xl={4}
-            style={{ display: "flex", alignItems: "center" }}
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
           >
             <img
-              src="https://modo-phinf.pstatic.net/20191128_120/1574923475720VWbbG_JPEG/mosaymJEgL.jpeg?type=f320_320"
+              // src="https://modo-phinf.pstatic.net/20191128_120/1574923475720VWbbG_JPEG/mosaymJEgL.jpeg?type=f320_320"
+              src="/img/logo.jpg"
               width={"100%"}
+              style={{ maxWidth: "250px" }}
             />
           </Col>
           <Col>
@@ -78,7 +84,7 @@ const Top = styled.div`
   /* background-image: url("https://m.canon-ci.co.kr:8443/resources/images/support/photo_gy01.png"); */
   height: 95vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://m.canon-ci.co.kr:8443/resources/images/support/photo_gy01.png");
+    url("/img/mainBg.png");
   background-size: cover;
   display: flex;
   /* justify-content: center; */
@@ -88,8 +94,9 @@ const Top = styled.div`
 const Content = styled.div`
   /* background-color: white; */
   /* padding-top: 50px; */
-  background: rgba(0, 0, 0, 0.1);
+  /* background: rgba(0, 0, 0, 0.1); */
   z-index: 10;
+  /* color: red; */
   margin-left: 100px;
   @media screen and (max-width: 500px) {
     margin-left: 0;
@@ -97,7 +104,8 @@ const Content = styled.div`
   width: max-content;
   /* max-width: 1000px; */
   padding: 50px;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.9);
+  /* color: white; */
   .title {
   }
   .subtitle {

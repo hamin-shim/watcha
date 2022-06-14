@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <Navbar className="color-nav" variant="dark" expand="md" fixed="top">
       <Container>
-        <Navbar.Brand href="/">새빈</Navbar.Brand>
+        <Navbar.Brand href="/">SAEBIN</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse
           style={{ justifySelf: "flex-end" }}

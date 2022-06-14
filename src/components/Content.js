@@ -4,7 +4,7 @@ import styled from "styled-components";
 export default function ContentCard({ data }) {
   return (
     <Content>
-      <STitle>{data.title}</STitle>
+      <STitle className="heading">{data.title}</STitle>
       <SP>{data.content}</SP>
       {data.img.length > 0 ? (
         <Row>

@@ -6,23 +6,23 @@ export default function Footer() {
   return (
     <FooterBox>
       <Row style={{ alignItems: "center" }}>
-        <Col lg={3} style={{ fontSize: "50px" }}>
+        {/* <Col lg={3} style={{ fontSize: "50px" }}>
           새빈
-        </Col>
-        <Col lg={6}>
+        </Col> */}
+        <Col>
           <Detail>
-            <p>서울특별시 서초구 서초중앙로 149-12복빌딩3층</p>
-            <p>대표자명 : 최우석 | TEL.02-6953-6979 | FAX. 02-1234-5678</p>
-            <p>COPYRIGHT &copy; 제일법무 all Rights Reserved </p>
+            <p>인천 부평구 백범로578번길 47</p>
+            <p>대표자명 : 유다은 | TEL.02-6953-6979</p>
+            {/* <p>COPYRIGHT &copy; 제일법무 all Rights Reserved </p> */}
           </Detail>
         </Col>
-        <Col>
+        {/* <Col>
           <SocialBox>
             <img src="http://www.lawfirmfirst.com/img/facebook.png" />
             <img src="http://www.lawfirmfirst.com/img/insta.png" />
             <img src="http://www.lawfirmfirst.com/img/twiter.png" />
           </SocialBox>
-        </Col>
+        </Col> */}
       </Row>
     </FooterBox>
   );
@@ -30,17 +30,17 @@ export default function Footer() {
 const FooterBox = styled.div`
   width: 100%;
   /* height: 100px; */
-  background-color: #2c3a47;
+  background-color: #88817e;
   text-align: center;
   padding: 30px;
   color: whitesmoke;
   margin-top: 100px;
 `;
 const Detail = styled.div`
-  text-align: left;
-  @media screen and (max-width: 992px) {
+  text-align: center;
+  /* @media screen and (max-width: 992px) {
     text-align: center;
-  }
+  } */
 `;
 const SocialBox = styled.div`
   img {

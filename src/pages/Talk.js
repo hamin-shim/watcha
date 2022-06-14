@@ -5,7 +5,7 @@ import styled from "styled-components";
 export default function Talk() {
   return (
     <Container style={{ marginTop: "100px" }}>
-      <h1>관장 인사말</h1>
+      <h1 className="heading">관장 인사말</h1>
       <Content>
         <Row>
           <Col lg={6} md={5} sm={12}>
@@ -60,10 +60,8 @@ export default function Talk() {
                 감사합니다.
                 <br />
               </p>
-              <img
-                width={"150px"}
-                src="https://upload.wikimedia.org/wikipedia/commons/a/ae/%EC%B5%9C%EA%B4%91%EB%AA%A8_%EC%84%9C%EB%AA%85%28png%29.png"
-              />
+              <img width={"150px"} src="/img/sign.jpg" />
+              {/* <h2 className="sign">Yu, Da-Eun</h2> */}
             </Talking>
           </Col>
         </Row>
@@ -78,6 +76,9 @@ const Talking = styled.div`
   display: flex;
   flex-direction: column;
   img {
+    align-self: flex-end;
+  }
+  .sign {
     align-self: flex-end;
   }
 `;
