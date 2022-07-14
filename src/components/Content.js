@@ -15,6 +15,7 @@ export default function ContentCard({ data }) {
               display: "flex",
               justifyContent: "center",
               margin: "10px 0",
+              alignItems: "center",
             }}
           >
             <Image src={data.img[0]} />
@@ -26,6 +27,7 @@ export default function ContentCard({ data }) {
               display: "flex",
               justifyContent: "center",
               margin: "10px 0",
+              alignItems: "center",
             }}
           >
             <Image src={data.img[1]} />
@@ -37,6 +39,7 @@ export default function ContentCard({ data }) {
               display: "flex",
               justifyContent: "center",
               margin: "10px 0",
+              alignItems: "center",
             }}
           >
             <Image src={data.img[2]} />
@@ -62,6 +65,6 @@ const SP = styled.p`
 `;
 
 const Image = styled.img`
-  width: 100%;
+  /* width: 100%; */
   max-width: 250px;
 `;

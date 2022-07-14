@@ -17,16 +17,16 @@ export default function Home() {
           </h5>
         </Content>
       </Top>
-      <Mid>
+      {/* <Mid>
         <p className="topContent">
-          2017년, 전시와 문화 공간 비즈니스를 위해 문을 연 새빈 갤러리는
+          2017년, 전시와 문화 공간 비즈니스를 위해 문을 연 새빈갤러리는
           <br />
           "품격 있는 아름다움"이라는 핵심 가치에 걸맞은
           <br />
           수준 높은 문화예술품들의 기획 전시를 개최하며 만족할 만한 성과를
           이루어 왔습니다. <br />
           <br />
-          새빈 갤러리는 전통적인 예술의 미와 시대적 가치를 품은 국제예술이
+          새빈갤러리는 전통적인 예술의 미와 시대적 가치를 품은 국제예술이
           공존하는
           <br />
           21세기 글로벌 갤러리입니다. <br />
@@ -45,18 +45,19 @@ export default function Home() {
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
+              paddingRight: "50px",
             }}
           >
             <img
               // src="https://modo-phinf.pstatic.net/20191128_120/1574923475720VWbbG_JPEG/mosaymJEgL.jpeg?type=f320_320"
-              src="/img/logo.jpg"
+              src="/img/logo_new.png"
               width={"100%"}
               style={{ maxWidth: "250px" }}
             />
           </Col>
           <Col>
             <p>
-              새빈 갤러리의 아이덴티티는 "고귀함(Noble)"입니다. <br />
+              새빈갤러리의 아이덴티티는 "고귀함(Noble)"입니다. <br />
               어둠을 밝히는 태양 빛은 눈이 시리도록 숭고하지만,
               <br />손 닿을 수 없을 만큼 높은 곳에서 <br /> 우리를 내려다보는
               신적인 존재이기도 합니다.
@@ -75,7 +76,7 @@ export default function Home() {
             </p>
           </Col>
         </Row>
-      </Mid>
+      </Mid> */}
     </>
   );
 }

@@ -6,7 +6,7 @@ import { contents } from "../data";
 
 export default function Introduction() {
   return (
-    <Container style={{ marginTop: "100px" }}>
+    <Container style={{ margin: "100px auto" }}>
       <ContentBox>
         <Title className="heading">특별전 '빛나는 세계'</Title>
         <img

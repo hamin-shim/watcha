@@ -12,7 +12,7 @@ export default function Footer() {
         <Col>
           <Detail>
             <p>경기 파주시 문발로 330 </p>
-            <p>대표자명 : 유다은 | TEL.02-6953-6979</p>
+            <p>대표자명 : 유다은 | tel:031-947-9498</p>
             {/* <p>COPYRIGHT &copy; 제일법무 all Rights Reserved </p> */}
           </Detail>
         </Col>
@@ -34,7 +34,7 @@ const FooterBox = styled.div`
   text-align: center;
   padding: 30px;
   color: whitesmoke;
-  margin-top: 100px;
+  /* margin-top: 100px; */
   /* position: absolute;
   bottom: 0; */
 `;

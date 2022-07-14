@@ -16,22 +16,22 @@ export default function Personnel() {
   }, [tab]);
   return (
     <Container
-      style={{ marginTop: "100px", minHeight: window.innerHeight - 340 }}
+      style={{ marginTop: "100px", minHeight: window.innerHeight - 240 }}
     >
       <Top>
-        <h3>구성원 소개</h3>
+        <h3 className="heading">구성원 소개</h3>
       </Top>
       <TopTable>
         <div className="col1">갤러리 관장</div>
         <div className="col2">유다은</div>
-        <div className="col3">
+        {/* <div className="col3">
           <div className="row1">자택 전화번호</div>
           <div className="row2">휴대 전화번호</div>
         </div>
         <div className="col4">
           <div className="row1">01-1234-5678</div>
           <div className="row2">010-1234-5678</div>
-        </div>
+        </div> */}
       </TopTable>
       <Row>
         <Col style={{ marginBottom: "50px" }} sm={6} md={3}>
@@ -79,6 +79,7 @@ export default function Personnel() {
           </Normal>
         </Col>
       </Row>
+      <div style={{ textAlign: "right" }}>※ 환경미화원 상시 모집</div>
     </Container>
   );
 }
@@ -92,13 +93,17 @@ const Top = styled.div`
 `;
 const TopTable = styled.div`
   display: grid;
-  width: 100%;
+  width: 50%;
+  margin: auto;
   /* border: 1px solid black; */
   /* grid-template-columns: repeat(4, 25%); */
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   border-top: 2px solid #d4c39f;
   border-bottom: 1px solid #ded9ce;
   margin-bottom: 50px;
+  div {
+    padding: 5px 0;
+  }
   .col1,
   .col2 {
     display: flex;
