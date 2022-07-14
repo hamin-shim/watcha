@@ -137,9 +137,9 @@ export const contents = [
     content:
       "국내에도 여러 번 소개된 바 있는 전설의 보석부터\n최근 해외 거장들을 통해 언급되며 화제가 된 작품들까지\n한자리에서 만나보실 수 있습니다.",
     img: [
-      "/img/picture/bottom_1.jpg",
-      "/img/picture/bottom_2.png",
-      "/img/picture/bottom_3.png",
+      "/img/picture/bottom_1_cut.png",
+      "/img/picture/bottom_2_cut.jpg",
+      "/img/picture/bottom_3_cut.png",
     ],
   },
   {
