@@ -68,7 +68,9 @@ export default function Personnel() {
           </Normal>
         </Col>
       </Row>
-      <div style={{ textAlign: "right" }}>※ 환경미화원 상시 모집</div>
+      <div style={{ textAlign: "right", color: "blue" }}>
+        ※ 환경미화원 상시 모집
+      </div>
     </Container>
   );
 }
