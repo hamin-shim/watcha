@@ -9,7 +9,7 @@ export default function ContentCard({ data }) {
       {data.img.length > 0 ? (
         <Row>
           <Col
-            md={4}
+            md={6}
             sm={12}
             style={{
               display: "flex",
@@ -21,7 +21,7 @@ export default function ContentCard({ data }) {
             <Image src={data.img[0]} />
           </Col>
           <Col
-            md={4}
+            md={6}
             sm={12}
             style={{
               display: "flex",
@@ -33,7 +33,7 @@ export default function ContentCard({ data }) {
             <Image src={data.img[1]} />
           </Col>
           <Col
-            md={4}
+            md={6}
             sm={12}
             style={{
               display: "flex",
@@ -57,6 +57,7 @@ const Content = styled.div`
 `;
 const STitle = styled.h2`
   font-weight: bold;
+  text-align: center;
 `;
 const SP = styled.p`
   line-height: 150%;

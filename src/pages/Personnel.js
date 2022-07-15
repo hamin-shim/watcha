@@ -1,19 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Col, Container, Row, Table } from "react-bootstrap";
 import styled from "styled-components";
-import Person from "../components/Person";
-import { peoples } from "../data";
 
 export default function Personnel() {
-  const [tab, setTab] = useState(0);
-  const [tabData, setTabData] = useState(peoples);
-  useEffect(() => {
-    console.log("tab is " + tab);
-    let data = peoples.filter((person) => person.tabName === String(tab));
-    // peoples.map((person) => console.log(person.tabName === String(tab)));
-    console.log(data);
-    setTabData(data);
-  }, [tab]);
   return (
     <Container
       style={{ marginTop: "100px", minHeight: window.innerHeight - 240 }}
